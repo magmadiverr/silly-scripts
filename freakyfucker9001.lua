@@ -96,6 +96,7 @@ lib:AddComboBox("Egg", {"Basic Egg", "Rare Egg", "Food Egg", "Sweets Egg", "Ocea
     egg = selection
 end)
 
-lib:AddComboBox("Amount", {"1", "2", "3", "5", "10", "20"}, function(selection)
+-- used to be able to open more, game kicks you if you do that now :(
+lib:AddComboBox("Amount", {"1", "2", "3"}, function(selection)
     amount = tonumber(selection)
 end)
