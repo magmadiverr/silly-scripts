@@ -92,7 +92,7 @@ lib:AddToggle("Auto Open Eggs", function(state)
     end
 end, false)
 
-lib:AddComboBox("Egg", {"Basic Egg", "Rare Egg", "Food Egg", "Sweets Egg", "Ocean Egg", "Lava Egg", "Cactus Egg", "Frozen Egg", "Futuristic Egg"}, function(selection)
+lib:AddComboBox("Egg", {"Basic Egg", "Rare Egg", "Food Egg", "Sweets Egg", "Ocean Egg", "Lava Egg", "Cactus Egg", "Frozen Egg", "Futuristic Egg", "Grass Egg"}, function(selection)
     egg = selection
 end)
 
